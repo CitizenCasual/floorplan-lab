@@ -1,8 +1,10 @@
 import React from "react";
 
-const Bedroom = () => {
+const Bedroom = (props) => {
   return (
-    <div>Bedroom</div>
+    <>
+      <div className="bedroom" id={`bed-${props.bedNum}`}>Bedroom</div>     
+    </>
   )
 }
 
