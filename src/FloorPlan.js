@@ -12,7 +12,8 @@ const FloorPlan = (props) => {
       <Kitchen />
       <Bedroom bedNum={1} />
       <Bedroom bedNum={2} />
-      <Bath size={props.size} />
+      <Bath size={'half'} />
+      <Bath size={'full'} />
     </>
   )
 }

@@ -5,9 +5,10 @@ import Sink from "./Sink";
 const Kitchen = () => {
   return (
     <>
-      <div>Kitchen</div>
-      <Oven />
-      <Sink />
+      <div>Kitchen
+        <Oven />
+        <Sink />
+      </div>
     </>
   )
 }
