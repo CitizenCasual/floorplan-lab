@@ -1,9 +1,9 @@
 import React from "react";
 
-const Bedroom = (bedNum) => {
+const Bedroom = (props) => {
   return (
     <>
-      <div className="bedroom" id={`bed-${bedNum}`}>Bedroom</div>     
+      <div className="bedroom" id={`bed-${props.bedNum}`}>Bedroom</div>     
     </>
   )
 }
