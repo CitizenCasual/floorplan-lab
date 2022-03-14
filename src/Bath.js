@@ -1,8 +1,8 @@
 import React from "react";
 
-const Bath = () => {
+const Bath = (props) => {
   return (
-    <div>Bath</div>
+    <div className="bath" id={`${props.size} Bath`}> {props.size} Bath</div>
   )
 }
 
