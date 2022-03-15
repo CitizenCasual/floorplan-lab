@@ -53,6 +53,7 @@ div {
 }
 
 #kitchen { 
+  display: flex;
   background-color: lightcoral;
   grid-area: Kitchen; 
 }
@@ -60,14 +61,12 @@ div {
 #oven { 
   background-color: aqua;
   grid-area: Oven; 
-  align-self: start;
-  
+  align-self: flex-end;
 }
 
 #sink { 
   background-color: lightpink;
   grid-area: Sink; 
-  align-self: start;
-  
+  align-self: flex-end; 
 }
 
