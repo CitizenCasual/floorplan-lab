@@ -8,15 +8,15 @@ div {
   width: 80vmin;
   height: 80vmin;
   display: grid;
-  grid-template-columns: 1.4fr 0.6fr 1.6fr 0.7fr 0.7fr;
-  grid-template-rows: 1.5fr 0.5fr 0.5fr 1.5fr;
+  grid-template-columns: 1.5fr 0.8fr 1.0fr 0.7fr 0.7fr;
+  grid-template-rows: 1.5fr 0.4fr 0.5fr 1.5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Bedroom-1 Bedroom-1 Living-Room Kitchen Kitchen"
-    "Full-Bath Full-Bath Living-Room Kitchen Kitchen"
-    "Full-Bath Full-Bath Living-Room Kitchen Kitchen"
-    "Bedroom-2 Bedroom-2 Half-Bath Bedroom-3 Bedroom-3";
+    "Bedroom-1 Living-Room Living-Room Kitchen Kitchen Kitchen"
+    "Full-Bath Living-Room Living-Room Kitchen Kitchen Kitchen"
+    "Full-Bath Living-Room Living-Room Kitchen Kitchen Kitchen"
+    "Bedroom-2 Half-Bath Bedroom-3 Bedroom-3 Bedroom-3 Bedroom-3";
 }
 
 .bedroom {
