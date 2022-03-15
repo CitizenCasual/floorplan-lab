@@ -16,7 +16,7 @@ div {
     "Bedroom-1 Bedroom-1 Living-Room Kitchen Kitchen"
     "Full-Bath Full-Bath Living-Room Kitchen Kitchen"
     "Full-Bath Full-Bath Living-Room Kitchen Kitchen"
-    "Bedroom-2 Bedroom-2 Bedroom-3 Half-Bath Half-Bath";
+    "Bedroom-2 Bedroom-2 Half-Bath Bedroom-3 Bedroom-3";
 }
 
 .bedroom {
@@ -53,20 +53,27 @@ div {
 }
 
 #kitchen { 
-  display: flex;
+  display: grid;
   background-color: lightcoral;
   grid-area: Kitchen; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 0.8fr 0.8fr; 
+  grid-template-rows: 0.5fr 1.5fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "oven sink"
+    "kitchen kitchen"; 
 }
 
 #oven { 
   background-color: aqua;
-  grid-area: Oven; 
-  align-self: flex-end;
+  grid-area: oven; 
+  align-self: flex-start;
 }
 
 #sink { 
   background-color: lightpink;
-  grid-area: Sink; 
-  align-self: flex-end; 
+  grid-area: sink; 
+  align-self: flex-start; 
 }
 
