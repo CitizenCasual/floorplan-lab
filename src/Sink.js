@@ -2,7 +2,7 @@ import React from "react";
 
 const Sink = () => {
   return (
-    <div>Sink</div>
+    <div id="sink">Sink</div>
   )
 }
 

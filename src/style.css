@@ -3,3 +3,52 @@ div {
   margin: 5px;
   padding: 5px;
 }
+
+#floorplan {  display: grid;
+  grid-template-columns: 1.4fr 0.6fr 1.6fr 0.7fr 0.7fr;
+  grid-template-rows: 1.5fr 0.5fr 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Bedroom-1 Bedroom-1 Living-Room Kitchen Kitchen"
+    "Full-Bath Full-Bath Living-Room Kitchen Kitchen"
+    "Full-Bath Full-Bath Living-Room Oven Sink"
+    "Bedroom-2 Bedroom-2 Bedroom-3 Half-Bath Half-Bath";
+}
+
+#bed-1 { 
+  grid-area: Bedroom-1; 
+}
+
+#full-bath { 
+  grid-area: Full-Bath; 
+}
+
+#bed-2 { 
+  grid-area: Bedroom-2; 
+}
+
+#half-bath { 
+  grid-area: Half-Bath; 
+}
+
+#bed-3 { 
+  grid-area: Bedroom-3; 
+}
+
+#living-room { 
+  grid-area: Living-Room; 
+}
+
+#kitchen { 
+  grid-area: Kitchen; 
+}
+
+#oven { 
+  grid-area: Oven; 
+}
+
+#sink { 
+  grid-area: Sink; 
+}
+

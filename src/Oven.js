@@ -3,7 +3,7 @@ import React from "react";
 
 const Oven = () => {
   return (
-    <div>Oven</div>
+    <div id="oven">Oven</div>
   )
 }
 
